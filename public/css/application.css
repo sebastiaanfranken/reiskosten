@@ -1,0 +1,24 @@
+/* --- Tags --- */
+
+/* --- Custom bootstrap stuff --- */
+
+.siw-navbar {
+	background: rgb(0, 168, 255);
+}
+
+.siw-navbar a {
+	color: #fff;
+}
+
+.siw-navbar li:hover a {
+	background: rgba(0, 0, 0, 0.125);
+}
+
+.siw-top-alert {
+	margin-top: 40px;
+}
+
+.tab-content {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}

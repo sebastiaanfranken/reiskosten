@@ -1,0 +1,23 @@
+{
+    "name": "sfranken/bootstrapped",
+    "description": "",
+    "authors": [
+        {
+            "name": "Sebastiaan Franken",
+            "email": "sebastiaan@smartinternetwork.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Sfranken\\Bootstrapped\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
